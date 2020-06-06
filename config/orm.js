@@ -44,9 +44,9 @@ function objToSql(ob) {
 // updateOne()
 
 var orm = {
-    selectAll: function (tableInput, callBack) {
+    select: function (tableInput, callBack) {
         var queryString = "SELECT * FROM " + tableInput;
-        connection.query(query, (err, res) => {
+        connection.query(queryString, (err, res) => {
             if (err) {
                 throw err
             };
