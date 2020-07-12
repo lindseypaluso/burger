@@ -1,3 +1,3 @@
-INSERT INTO burgers (name) VALUES ('Whopper');
-INSERT INTO burgers (name) VALUES ('Big Mac');
-INSERT INTO burgers (name) VALUES ('Peanut Butter Pickle Bacon');
+INSERT INTO burgers (burger_name) VALUES ('Whopper');
+INSERT INTO burgers (burger_name) VALUES ('Big Mac');
+INSERT INTO burgers (burger_name) VALUES ('Peanut Butter Pickle Bacon');
